@@ -9,15 +9,17 @@ export const rootSx: SxProps<Theme> = (theme)=>({
 
         '& .MuiTypography-root':{
           color:'#fff',
-          fontFamily:"Montserrat"
+          fontFamily:"Montserrat",
+          whiteSpace:'pre-line',
         },
 
         '& 	.ParallaxPage-title':{
           position:'absolute',
           top:'10%',
           left:'10%',
-            '& .MuiTypography-h1':{
+            '& .MuiTypography-h1, & .MuiTypography-h3':{
             fontWeight:600,
+            
             // textTransform:'uppercase',
             },
         },
@@ -28,7 +30,7 @@ export const rootSx: SxProps<Theme> = (theme)=>({
           width: 640,
           '& .MuiTypography-body1':{
             fontWeight:400,
-            whiteSpace:'pre-line',
+           
             fontSize:'1.4rem',
             },
         },
