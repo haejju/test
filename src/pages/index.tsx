@@ -1,14 +1,12 @@
 import * as React from 'react';
-import SplinePage from './SplinePage/SplinePage';
+import ParallaxPage from './Components/ParallaxPage/ParallaxPage';
 
 
 
 export default function Home() {
   return (
     <>
-
-      <SplinePage/>
-  
+      <ParallaxPage/>
 
     </>
   )
