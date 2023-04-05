@@ -1,41 +1,39 @@
-import { SxProps, Theme } from "@mui/material"
+import { SxProps, Theme,createTheme } from "@mui/material"
 
 
 export const rootSx: SxProps<Theme> = (theme)=>({
-        maxWdth: '100%',
-        overflowX: 'hidden',
-        bgcolor:'#121212',
-        height:'100vh',
+  position:'relative',
+  maxWdth: '100%',
+  overflowX: 'hidden',
+  bgcolor:'#121212',
+  height:'100vh',
+  '& .MuiTypography-root':{
+    color:'#fff',
+    fontFamily:"Montserrat",
+  },
+  '& .ParallaxPage-content':{
+    position:'absolute',
+    display:'flex',
+    justifyContent:"space-between",
+    width:'100%',
+    height:'100%',
+    padding: 15,
+  },
+  '& 	.ParallaxPage-title':{
+    '& .MuiTypography-h1, & .MuiTypography-h2':{
+    fontWeight:600,
+    },
+  },
 
-        '& .MuiTypography-root':{
-          color:'#fff',
-          fontFamily:"Montserrat",
-          whiteSpace:'pre-line',
-        },
-
-        '& 	.ParallaxPage-title':{
-          position:'absolute',
-          top:'10%',
-          left:'10%',
-            '& .MuiTypography-h1, & .MuiTypography-h3':{
-            fontWeight:600,
-            
-            // textTransform:'uppercase',
-            },
-        },
-        '& .ParallaxPage-titleText':{
-          position:'absolute',
-          bottom:'15%',
-          right:'10%',
-          width: 640,
-          '& .MuiTypography-body1':{
-            fontWeight:400,
-           
-            fontSize:'1.4rem',
-            },
-        },
-
-
-
-    
+  '& .ParallaxPage-titleText':{
+    display:'flex',
+    justifyContent:'flex-end',
+    width:'100%',
+    '& .MuiTypography-body1':{
+      width:740,
+      fontWeight:460,
+      fontSize:'1.2rem',
+      lineHeight:'2rem',
+      },
+  },
 })
