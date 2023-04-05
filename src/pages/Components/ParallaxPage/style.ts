@@ -11,6 +11,15 @@ export const rootSx: SxProps<Theme> = (theme)=>({
     color:'#fff',
     fontFamily:"Montserrat",
   },
+  '& .MuiTypography-h1, & .MuiTypography-h2':{
+    fontWeight:600,
+    },
+  '& .MuiTypography-body1':{
+    width:740,
+    fontWeight:460,
+    fontSize:'1.2rem',
+    lineHeight:'2rem',
+    },
   '& .ParallaxPage-content':{
     position:'absolute',
     display:'flex',
@@ -19,12 +28,6 @@ export const rootSx: SxProps<Theme> = (theme)=>({
     height:'100%',
     padding: 15,
   },
-  '& 	.ParallaxPage-title':{
-    '& .MuiTypography-h1, & .MuiTypography-h2':{
-    fontWeight:600,
-    },
-  },
-
   '& .ParallaxPage-titleText':{
     display:'flex',
     justifyContent:'flex-end',

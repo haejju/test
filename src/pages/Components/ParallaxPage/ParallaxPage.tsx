@@ -32,7 +32,7 @@ export default function ParallaxPage() {
               </Typography>
             </Box>
           </Stack>
-          <Spline scene="https://prod.spline.design/XSUUkoiOBPFAWQrT/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/XSUUkoiOBPFAWQrT/scene.splinecode" /> */}
         </ParallaxLayer>
 
         <ParallaxLayer offset={1} speed={0.2}>
@@ -57,7 +57,7 @@ export default function ParallaxPage() {
               </Typography>
             </Box>
           </Stack>
-          <Spline scene="https://prod.spline.design/cvO9PavEszE-0aLK/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/cvO9PavEszE-0aLK/scene.splinecode" /> */}
         </ParallaxLayer>
 
         <ParallaxLayer offset={2} speed={0.2}>
@@ -82,7 +82,7 @@ export default function ParallaxPage() {
               </Typography>
             </Box>
           </Stack>
-          <Spline scene="https://prod.spline.design/G15qhAySD09k1Uj2/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/G15qhAySD09k1Uj2/scene.splinecode" /> */}
         </ParallaxLayer>
 
         <ParallaxLayer offset={3} speed={0.2}>
@@ -108,10 +108,10 @@ export default function ParallaxPage() {
               </Typography>
             </Box>
           </Stack>
-          <Spline scene="https://prod.spline.design/hw4HCf47Y8YvTmxO/scene.splinecode" />
+          {/* <Spline scene="https://prod.spline.design/hw4HCf47Y8YvTmxO/scene.splinecode" /> */}
         </ParallaxLayer>
       </Parallax>
-      {/* <Spline scene="https://prod.spline.design/wLdyeKxwkwmhWy03/scene.splinecode" /> */}
+      <Spline scene="https://prod.spline.design/wLdyeKxwkwmhWy03/scene.splinecode" />
     </Box>
   );
 }
