@@ -111,7 +111,7 @@ export default function ParallaxPage() {
           {/* <Spline scene="https://prod.spline.design/hw4HCf47Y8YvTmxO/scene.splinecode" /> */}
         </ParallaxLayer>
       </Parallax>
-      <Spline scene="https://prod.spline.design/wLdyeKxwkwmhWy03/scene.splinecode" />
+    <Spline scene="https://prod.spline.design/2nwq1cYWkTmvj6CE/scene.splinecode" />
     </Box>
   );
 }
