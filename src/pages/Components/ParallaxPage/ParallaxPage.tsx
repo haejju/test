@@ -3,7 +3,6 @@ import Spline from '@splinetool/react-spline';
 import {Box,Typography,Stack} from '@mui/material';
 import { rootSx } from './style';
 import { Parallax,ParallaxLayer } from '@react-spring/parallax';
-import SplineScene from '../SplineScene/SplineScene';
 
 // https://www.youtube.com/watch?v=UgIwjLg4ONk
 
