@@ -5,13 +5,14 @@ import { rootSx } from './style';
 import { Parallax,ParallaxLayer } from '@react-spring/parallax';
 import SplineScene from '../SplineScene/SplineScene';
 
+// https://www.youtube.com/watch?v=UgIwjLg4ONk
 
 export default function ParallaxPage() {
 
   return (
     <Box className="ParallaxPage-root" sx={rootSx}>
       <Parallax pages={4} style={{top:'0', left:'0'}}>
-        <ParallaxLayer offset={0} speed={0.2}>
+        <ParallaxLayer offset={0} speed={0.2} factor={1}>
           <Stack className='ParallaxPage-content'>
             <Box className="ParallaxPage-title">
               <Typography variant='h1'>
